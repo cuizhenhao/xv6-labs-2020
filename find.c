@@ -56,7 +56,7 @@ find(char *path, char *re)
 int
 main(int argc, char *argv[])
 {
-  if(argc != 3){
+  if(argc < 3){
     fprintf(2, "usage: find <path> <expression>\n");
     exit(1);
   }
